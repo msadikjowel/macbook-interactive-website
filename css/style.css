@@ -1,0 +1,78 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5%;
+    border-bottom: 2px solid rgb(221, 218, 218);
+
+}
+#mac-img{
+    width: 80%;
+}
+.main-design{
+    width: 100%;
+}
+
+/* font size changing */
+#title{
+    font-size: 2rem;
+}
+
+/* button designing */
+button{
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+button:focus{
+    color: white;
+    border: 3px solid gray;
+    background-color: rgb(0, 0, 0);
+}
+
+/* price calculate section */
+.price-section{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.price-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(221, 218, 218);
+}
+.delivery-charge{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+/* input style changing */
+.input-class{
+    font-size: 18px;
+    height: 30px;
+}
+#apply-button{
+    color: white;
+    background-color: rgb(219, 17, 17);
+    padding: 0, 15px;
+}
+
